@@ -1,0 +1,30 @@
+{
+    "name": "tofex/m2-log",
+    "description": "Tofex Magento 2 Log Wrapper",
+    "require": {
+        "php": ">=7.0",
+        "magento/framework": "~100.1.0|~101.0.0|~102.0.0|~103.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "logging"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Tofex\\Log\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Knollmann",
+            "email": "a.knollmann@tofex.de",
+            "homepage": "https://www.tofex.de",
+            "role": "Developer"
+        }
+    ]
+}
