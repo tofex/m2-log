@@ -2,7 +2,7 @@
     "name": "tofex/m2-log",
     "description": "Tofex Magento 2 Log Wrapper",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "keywords": [
         "logging"
